@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <script src="/js/move.js"></script>
+    <div id="content">
+        <div class="header">
+            <div class="again">
+                <button onclick="againt();">Again</button>
+            </div>
+            <div class="bar">
+                <h1>< Between 1 and 20 ></h1>
+            </div>
+            <div class="guess">
+                <p>Guess My Number!</p> 
+            </div>
+            <div id="view">?</div>
+        </div>
+        
+        <div class="aside">
+            <input type="text" id="user" size="10px" >
+            <input type="button" class="check"  value="check!" onclick="guess();">
+        </div>
+        <div class="aside">
+            <div id="result">Go Try</div>
+            <div id="guesses" >🎯Score : 20<br></div>
+            <div id="highScore">👍highScore :</div>
+            <div id="wrong">❌틀린숫자 :</div>
+        </div>
+        
+    </div>
+</body>
+</html>
